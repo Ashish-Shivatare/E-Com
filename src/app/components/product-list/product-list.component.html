@@ -1,5 +1,14 @@
 
 
+    <div *ngFor="let dish of dishes" class="text-danger">
+        <span>{{dish.name}} </span>
+    </div>
+
+
+    <div *ngFor="let dish of dishes">
+        <span>{{ dish.description }}</span>
+    </div> 
+
     <div *ngFor="let  of products" class="text-danger">
         <span>{{list.unitPrice}} </span>
     </div>
@@ -8,3 +17,4 @@
     <div *ngFor="let list of products">
         <span>{{ list.name }}</span>
     </div>
+
