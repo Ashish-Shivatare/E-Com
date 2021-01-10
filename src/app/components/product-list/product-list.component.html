@@ -9,6 +9,10 @@
         <span>{{ dish.description }}</span>
     </div> 
 
+    <div *ngFor="let dish of dishes">
+        <span>{{ dish.description }}</span>
+    </div>
+
     <div *ngFor="let  of products" class="text-danger">
         <span>{{list.unitPrice}} </span>
     </div>
